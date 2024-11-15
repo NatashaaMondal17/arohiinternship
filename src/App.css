@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body, .App {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  background-color: linear-gradient(rgb(148, 181, 186));
+  color: rgb(69, 107, 102);            
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  height: 100hv;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  gap: 20px; 
+}
+
+.App-header, .App-body {
+  border-radius: 10px; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5); /* Subtle shadow */
+}
+
+.App-header {
+  border: 4px solid rgb(255, 255, 255);        
+  padding: 40px;
+  width: 80%;                     
+  margin-bottom: 40px;
+}
+
+h1{
+  font-size: 2.5em;
+}
+
+.App-body{
+  border: 2px solid white;        
+  padding: 20px;
+  width: 80%;                     
+  font-size: 2.5em;
+}
+
+.App-body p {
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(255, 255, 255, 0.2);
+}
+
+.App-body p {
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.App-body p:hover {
+  background-color: rgba(255, 255, 255, 0.1); 
+  transform: scale(1.05); 
+}
+
+.App-footer {
+  margin-top: 20px;
+  color: white;
+  font-size: 0.9em;
+  text-align: right;
+  opacity: 0.7;
+}
+
+.App-footer a {
+  color: #445c6f; 
+  text-decoration: none;
+}
+
+.App-footer a:hover {
+  text-decoration: underline;
+}
+
+.left-decor, .right-decor {
+  position: absolute;
+  top: 0;
+  width: 100px;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.2));
+}
+
+.App-screenshot {
+  position: absolute; 
+  top: 30px; 
+  left: 30px; 
+  width: 140px; 
+  height: auto; 
+  border-radius: 8px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
